@@ -1,4 +1,4 @@
-.marginClear {
+.marginClear 
   margin: 0; }
 
 .paddingClear {
@@ -75,8 +75,8 @@
 
 
   //------PDF------
-#PDF{
-  margin-top:50px;
+// #PDF{
+//   margin-top:50px;
 
 .col-md-1{
    text-align:center;
@@ -98,7 +98,6 @@ font-family: "Georgia";
 color:gray;
 margin-right:5px;
 }
-
 ul{
   margin-top:20px;
   margin-left:-40px;
@@ -107,7 +106,6 @@ ul{
 li{
   display:inline-block;
   border-right:1px solid gray;
-  
   height:20px;
   text-align:center;
   margin:5px;
@@ -115,9 +113,5 @@ li{
 
 }
 .padClass{
-
- padding-left:  40px !important;
- padding-bottom:15px;
- 
-
+ padding:15px !important;
 }

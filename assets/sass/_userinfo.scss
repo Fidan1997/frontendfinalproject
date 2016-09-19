@@ -1,10 +1,6 @@
-.mainheader{
 
-	height:76px;
-
-}
 .userinfo{
-    overflow:hidden;
+    
 	border-bottom:solid 1px #ddd;
 	border-top:solid 1px  #ddd;
 	background-color:#f8f8f8;
@@ -15,7 +11,7 @@
 		padding-left:75px;
 		img{
 			width:100%;
-			border-radius:2%;
+			border-radius:5%;
 		}
 	}
 
@@ -45,7 +41,7 @@ li{
 
 
 .profilimg{
-	width:180px;
+	
 	height:180px;
 
 }
@@ -54,24 +50,24 @@ li{
 	padding:0;
 }
 .main,.main2{
-
-	 width: 740px;
 	 display:inline-block;
 	 margin-bottom:8px;
 }
 .buthov1{
-	width:110px;
+	
 	background:#92AA4A;
 }
 .buthov2{
-	width:80px;
+	
 	color:gray !important;
-	background:white !important;
+	background:#f8f8f8 !important;
 }
 .buthov1:hover{
+
 	background-color:#6D8036;
 }
 .buthov2:hover{
+
 	background-color:gray !important;
 	color:white !important;
 }
@@ -143,16 +139,19 @@ li{
 
 }
 .button1{
-	    color: #fff;
+	color: #fff;
     text-decoration: none;
     background-color:#92AA4A;
     border:1px solid #72853A;
     border-radius:2px;  
-      margin: 16px;
-      width:178px;
-     height:50px;
-     font-weight:700;
-     letter-spacing: 1px;
+    margin: 16px;
+    padding:0 25px;
+    height:50px;
+    font-weight:500;
+    letter-spacing: 1px;
+    font-family:Helvetica;
+    font-size:13px;
+    font-weight: bold;
 
 }
 .button2{
@@ -165,7 +164,7 @@ li{
      color:#9999B2;
      margin-top:5px;
      margin-bottom:5px;
-     width:150px;
+     padding:0 15px;
      height:45px;
      border-radius:2px;
 

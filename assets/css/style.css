@@ -4,11 +4,7 @@
 .paddingClear {
   padding: 0; }
 
-.mainheader {
-  height: 76px; }
-
 .userinfo {
-  overflow: hidden;
   border-bottom: solid 1px #ddd;
   border-top: solid 1px  #ddd;
   background-color: #f8f8f8; }
@@ -18,7 +14,7 @@
     padding-left: 75px; }
     .userinfo .container img {
       width: 100%;
-      border-radius: 2%; }
+      border-radius: 5%; }
   .userinfo button {
     height: 36px;
     border-radius: 4px;
@@ -34,25 +30,21 @@
     font-family: "Georgia";
     list-style: none; }
   .userinfo .profilimg {
-    width: 180px;
     height: 180px; }
 
 .col-md-2 {
   padding: 0; }
 
 .main, .main2 {
-  width: 740px;
   display: inline-block;
   margin-bottom: 8px; }
 
 .buthov1 {
-  width: 110px;
   background: #92AA4A; }
 
 .buthov2 {
-  width: 80px;
   color: gray !important;
-  background: white !important; }
+  background: #f8f8f8 !important; }
 
 .buthov1:hover {
   background-color: #6D8036; }
@@ -118,10 +110,13 @@
   border: 1px solid #72853A;
   border-radius: 2px;
   margin: 16px;
-  width: 178px;
+  padding: 0 25px;
   height: 50px;
-  font-weight: 700;
-  letter-spacing: 1px; }
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold; }
 #designSystems .button2 {
   border: 0 solid #333;
   background-color: white;
@@ -132,7 +127,7 @@
   color: #9999B2;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 150px;
+  padding: 0 15px;
   height: 45px;
   border-radius: 2px; }
 #designSystems .button2:hover {
@@ -193,11 +188,9 @@
   margin-bottom: 8px; }
 
 .buthov1 {
-  width: 127px;
   background: #92AA4A; }
 
 .buthov2 {
-  width: 117px;
   color: !important;
   background: white !important; }
 
@@ -229,20 +222,22 @@
     color: #717171;
     letter-spacing: 1.35px;
     font-family: Helvetica; }
-  #PDF .test {
-    margin-left: 160px;
-    margin-right: 160px; }
   #PDF a {
     font-family: "Georgia";
     color: gray;
     margin-right: 5px; }
   #PDF ul {
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-left: -40px; }
   #PDF li {
     display: inline-block;
     border-right: 1px solid gray;
     height: 20px;
     text-align: center;
     margin: 5px; }
+
+.padClass {
+  padding-left: 40px !important;
+  padding-bottom: 15px; }
 
 /*# sourceMappingURL=style.css.map */
